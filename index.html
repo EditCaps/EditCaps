@@ -58,6 +58,15 @@
       object-fit: contain;
     }
 
+    /* Smaller logo on mobile */
+    @media (max-width: 480px) {
+      .logo img {
+        height: 36px !important;
+        min-height: 36px;
+        max-height: 36px;
+      }
+    }
+
     nav {
       display: flex;
       gap: 32px;
